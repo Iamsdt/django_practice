@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block body %}
+<div>
+    <p>Name: {{name|lower}}</p>
+    <p>Country: {{country}}</p>
+    <p>
+        {% for i in list %}
+        {% if i <= 3 %}
+        <h{{i}}>Hello Bangladesh, Great</h{{i}}>
+        {% else %}
+        <h{{i}}>Hello Bangladesh</h{{i}}>
+        {%endif%}
+        {% endfor %}
+    </p>
+</div>
+
+{% endblock %}
