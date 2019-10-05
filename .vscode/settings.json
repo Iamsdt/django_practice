@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/home/shudipto/.local/share/virtualenvs/bangla-oxL1MMud/bin/python",
+    "python.testing.pytestArgs": [
+        "bangla"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
